@@ -1,0 +1,3 @@
+[submodule "vendor/jsgauge"]
+	path = vendor/jsgauge
+	url = https://msbrime@bitbucket.org/msbrime/jsgauge.git
