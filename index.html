@@ -16,12 +16,9 @@
 
 	</div>
 
-
-
 	<div id="gauges" class="full-width section clearfix">
 
 		<div class="medium-12 columns ">
-
 
 			<div class="gauge-container">
 
@@ -157,9 +154,9 @@
 			arcDistance:240,
 			pointCount:40,
 			value:80 }
-		).oscillate();
+		).oscillate(),
 
-		win.overallGauge = jsGauge.init(
+		overallGauge = jsGauge.init(
 			"#overall_gauge",
 			{ startAngle:150,
 			arcDistance:240,
@@ -167,8 +164,7 @@
 			value:85 }
 		).oscillate();
 
-
-		overallGauge.setValue(20);
+		//overallGauge.setValue(20);
 
   })(window);
 
